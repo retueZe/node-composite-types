@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "composite-types",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/index.d.ts",
   "description": "Provides the basic composite types.",
   "keywords": ["type", "compose", "composition", "composite", "set"],
