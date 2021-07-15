@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "composite-types",
+  "version": "0.0.0",
+  "main": "dist/index.d.ts",
+  "description": "Provides the basic composite types.",
+  "keywords": ["type", "compose", "composition", "composite", "set"],
+  "author": "retueze",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retueZe/node-composite-types"
+  },
+  "scripts": {
+    "lint": "eslint",
+    "buildTs": "tsc -p tsconfig.json",
+    "buildProd": "npm run buildTs",
+    "prepare": "rd /s /q dist && npm run buildProd"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.2",
+    "@typescript-eslint/parser": "^4.28.3",
+    "typescript": "^4.3.5"
+  }
+}
